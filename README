@@ -1,0 +1,11 @@
+Pour lancer le serveur suivez les étapes suivante:
+créer un environnement virtuel
+      pip install virtualenv
+      virtualenv env
+      source env/bin/activate
+Installer toutes les dépendances:
+     pip install -r requirements.txt
+Lancer le serveur:
+     uvicorn main:app --reload
+ NB: Vous devrez un peu modifier le fichier test pour qu'il puisse avoir un success 
+     pytest
